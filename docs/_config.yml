@@ -11,14 +11,14 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Minimal Mistakes"
+title                    : "Job2Dev Software"
 title_separator          : "-"
-subtitle                 : "A Jekyll theme"
-name                     : &name "Michael Rose" # &name is a YAML anchor which can be *referenced later
+subtitle                 : "Software Developemnt"
+name                     : &name "Klaid Dias" # &name is a YAML anchor which can be *referenced later
 description              : &description "A flexible Jekyll theme for your blog or site with a minimalist aesthetic."
-url                      : https://mmistakes.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/minimal-mistakes" # the subpath of your site, e.g. "/blog"
-repository               : "mmistakes/minimal-mistakes"
+url                      : https://job2dev.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+repository               : "klaiddias/job2dev.com"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -55,14 +55,16 @@ atom_feed:
 
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : algolia # lunr (default), algolia
+search_provider          : lunr # lunr (default), algolia
+lunr:
+  search_within_pages    : # true, false (default)
 algolia:
-  application_id         : V3TIB3DGGJ # YOUR_APPLICATION_ID
-  index_name             : job2dev # YOUR_INDEX_NAME
-  search_only_api_key    : 2b5922728d606d03d6622a9964fee570 # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : true # true (default), false
+  application_id         : #V3TIB3DGGJ # YOUR_APPLICATION_ID
+  index_name             : #job2dev # YOUR_INDEX_NAME
+  search_only_api_key    : #2b5922728d606d03d6622a9964fee570 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : #true # true (default), false
   files_to_exclude:
-    - _posts/2017-11-28-post-exclude-search.md
+    #- _posts/2017-11-28-post-exclude-search.md
 
 # SEO Related
 google_site_verification : "PA2vpOnXtL3nLYcockS4MhQPOC_vApCLUHQPvfpc2xo" # Replace this with your ID, or delete
