@@ -55,16 +55,16 @@ atom_feed:
 
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
-search_provider          : lunr # lunr (default), algolia
+search_provider          : algolia # lunr (default), algolia
 lunr:
   search_within_pages    : true, false (default)
-# algolia:
-#   application_id         : V3TIB3DGGJ # YOUR_APPLICATION_ID
-#   index_name             : job2dev # YOUR_INDEX_NAME
-#   search_only_api_key    : a2f9dcb38d4729a4b11360423dab0409 # YOUR_SEARCH_ONLY_API_KEY
-#   powered_by             : true # true (default), false
-#   files_to_exclude:
-#     - _posts/2017-11-28-post-exclude-search.md
+algolia:
+  application_id         : V3TIB3DGGJ # YOUR_APPLICATION_ID
+  index_name             : job2dev # YOUR_INDEX_NAME
+  search_only_api_key    : a2f9dcb38d4729a4b11360423dab0409 # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : true # true (default), false
+  files_to_exclude:
+    - _posts/2017-11-28-post-exclude-search.md
 
 # SEO Related
 google_site_verification : "PA2vpOnXtL3nLYcockS4MhQPOC_vApCLUHQPvfpc2xo" # Replace this with your ID, or delete
