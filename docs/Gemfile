@@ -17,4 +17,5 @@ group :jekyll_plugins do
   gem "jekyll-include-cache"
   gem "faraday-retry"
   gem "jekyll-algolia"
+  gem "algoliasearch-jekyll"
 end
