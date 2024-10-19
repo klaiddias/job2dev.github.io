@@ -61,7 +61,7 @@ lunr:
 algolia:
   application_id         : V3TIB3DGGJ # YOUR_APPLICATION_ID
   index_name             : job2dev # YOUR_INDEX_NAME
-  search_only_api_key    : a2f9dcb38d4729a4b11360423dab0409 # YOUR_SEARCH_ONLY_API_KEY
+  search_only_api_key    : 2b5922728d606d03d6622a9964fee570 # YOUR_SEARCH_ONLY_API_KEY
   powered_by             : true # true (default), false
   files_to_exclude:
     - _posts/2017-11-28-post-exclude-search.md
